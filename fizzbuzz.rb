@@ -1,12 +1,11 @@
 puts "Enter a number: "
-int = gets.chomp
+num = gets.chomp
 
-def fizzbuzz(int)
-  if #{int} % 3 == 0
+def fizzbuzz(int = 3)
+  if num % int == 0
     puts "Fizz"
   end
 end
 
-fizzbuzz(3)
 fizzbuzz(5)
 fizzbuzz()

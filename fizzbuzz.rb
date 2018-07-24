@@ -1,7 +1,6 @@
-puts "Enter a number: "
-int = gets.chomp
-
 def fizzbuzz(int)
+  puts "Enter a number: "
+  int = gets.chomp
   if int % 3 == 0
     "Fizz"
   end

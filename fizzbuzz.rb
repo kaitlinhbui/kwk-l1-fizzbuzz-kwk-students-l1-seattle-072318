@@ -1,3 +1,3 @@
 put "Enter a number:"
 
-num = 
+num = gets.chomp

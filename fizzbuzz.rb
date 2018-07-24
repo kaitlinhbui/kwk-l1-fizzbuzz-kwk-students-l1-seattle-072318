@@ -1,3 +1,11 @@
-puts "Enter a number:"
+def fizzbuzz(int)
+  if int % 3 == 0
+    "Fizz"
+  end
+end
 
-num = gets.chomp.to_i
+fizzbuzz(3)
+
+fizzbuzz(5)
+
+fizzbuzz()

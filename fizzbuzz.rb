@@ -12,3 +12,5 @@ def fizzbuzz(int)
     puts "Nil"
   end
 end
+
+fizzbuzz(int)

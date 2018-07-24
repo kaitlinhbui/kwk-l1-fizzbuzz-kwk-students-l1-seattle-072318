@@ -1,1 +1,3 @@
-put "Enter a number: ".gets
+put "Enter a number:"
+
+num = 
